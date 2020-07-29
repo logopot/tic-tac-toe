@@ -52,9 +52,9 @@ export default class Game extends Component {
 
         return (
             <div className="d-flex justify-content-center pt-5">
-                <div className="game-board">
+                <div className="game-board mb-5">
                     <h2 className = "p-4">{status}</h2>
-                    <Board squares = {current.squares} winningSquares = {winningSquares} onClick={(i) => this.handleClick(i)} squares={current.squares} />
+                    <Board winningSquares = {winningSquares} onClick={(i) => this.handleClick(i)} squares={current.squares} />
                     <a className = "btn btn-game mt-5 py-3 px-5" href = "/">Start new game</a>
                 </div>
             </div>
