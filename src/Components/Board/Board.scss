@@ -1,0 +1,17 @@
+.game-board {
+
+    h2 {
+        color: #555b6e;
+    }
+
+    .btn-game {
+        color: #555b6e;
+        background-color: #ffd6ba;
+
+        &:hover {
+            color: #555b6e;
+            background-color: #bee3db;
+        }
+    }
+}
+

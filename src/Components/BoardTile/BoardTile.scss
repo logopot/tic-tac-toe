@@ -1,0 +1,25 @@
+
+.square {
+    float: left;
+    font-size: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 80px;
+    line-height: 80px;
+    height: 80px;
+    text-decoration: none;
+    background-color: #555b6e;
+    margin: 10px;
+    border: 1px solid #555b6e;
+
+}
+
+button.square[data-pro="X"] {
+    color: #89b0ae;
+}
+    
+button.square[data-pro="O"] {
+    color: #ffd6ba;
+}
